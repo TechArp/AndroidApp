@@ -1,9 +1,8 @@
 package com.example.myfirstapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.ViewGroup;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class DisplayMessageActivity extends AppCompatActivity {
@@ -20,7 +19,7 @@ public class DisplayMessageActivity extends AppCompatActivity {
 
         // Capture the layout's TextView and set the string as its text
         TextView textView5 = (TextView) findViewById(R.id.textView5);
-        texhellotView5.setText(message);
+        textView5.setText(message);
     }
 
 
