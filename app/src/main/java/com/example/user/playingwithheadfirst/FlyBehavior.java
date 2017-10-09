@@ -5,5 +5,5 @@ package com.example.user.playingwithheadfirst;
  */
 
 interface FlyBehavior {
-    public void fly();
+    public String fly();
 }

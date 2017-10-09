@@ -6,7 +6,7 @@ package com.example.user.playingwithheadfirst;
 
 public class FlyNoWay implements FlyBehavior {
     @Override
-    public void fly() {
-        System.out.println("I can't fly");
+    public String fly() {
+        return "I can't fly";
     }
 }

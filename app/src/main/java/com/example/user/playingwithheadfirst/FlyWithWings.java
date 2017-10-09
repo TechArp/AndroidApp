@@ -6,8 +6,8 @@ package com.example.user.playingwithheadfirst;
 
 public class FlyWithWings implements FlyBehavior {
     @Override
-    public void fly() {
-        System.out.println("I'm flying");
+    public String fly() {
+        return "I'm flying";
     }
 
 }

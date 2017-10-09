@@ -5,5 +5,5 @@ package com.example.user.playingwithheadfirst;
  */
 
 interface QuackBehavior {
-    public void quack();
+    public String quack();
 }

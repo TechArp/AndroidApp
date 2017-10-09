@@ -6,7 +6,7 @@ package com.example.user.playingwithheadfirst;
 
 public class Squeack implements QuackBehavior {
     @Override
-    public void quack() {
-        System.out.println(" Squeack ");
+    public String quack() {
+        return " Squeack ";
     }
 }
